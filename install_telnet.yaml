@@ -1,4 +1,4 @@
 - hosts: 192.18.33.190
   tasks:
-     - name: install telnet
+     - name: "install telnet"
        yum: name="telnet" state="present"
