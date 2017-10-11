@@ -2,3 +2,6 @@
   tasks:
      - name: "install telnet"
        yum: name="telnet" state="present"
+  roles:
+     - tigr1991.nginx
+       
